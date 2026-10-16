@@ -10,6 +10,14 @@ Sales teams often waste time pursuing cold leads while high-intent prospects exp
 
 ---
 
+## 🎯 Project Objectives
+
+- **Conversion Prediction:** Train a machine learning model to evaluate historical patterns and predict the probability ($P \in [0, 1]$) of a lead successfully converting[cite: 1].
+- **Automated Lead Triaging:** Generate an automated, ranked priority list for active leads in the `Prospect` and `Follow Up Required` stages[cite: 1].
+- **Resource Optimization:** Reallocate executive bandwidth and marketing budgets toward high-performing acquisition channels and campaigns[cite: 1].
+
+---
+
 ## 🛠️ Data Pipeline & Preprocessing
 
 1. **Leakage Prevention:** Removed post-call timestamps (`creation_date`, `first_call_attempt`, `last_call_date`, `last_call_time`) and identifiers (`Name`, `contact_number`, `Contact_email`, `references`).
